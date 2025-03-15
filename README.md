@@ -9,4 +9,5 @@ Adds a remove button to each video in playlist.
 3. Load any ```youtube.com/playlists?list=*``` page
 
 ## Problems
-1. If doesnt work, reload page
+1. If doesnt work, reload the page
+2. Icon appears on not owned playlists
