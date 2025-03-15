@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube Playlist: quick remove",
+  "description": "Adds a remove button to each video in playlist",
+  "version": "1.0",
+  "action": {},
+  "content_scripts": [
+    {
+      "matches": [ "*://www.youtube.com/playlist?list=*" ],
+      "js": [ "content.js" ],
+      "run_at": "document_idle"
+    }
+  ]
+}
